@@ -2,6 +2,8 @@
 
 Is a, Has a, Uses a relationship 
 
+Find PDF here: https://github.com/HadyaJahangir/IBM/blob/main/Hadya_Jahangir_.pdf
+
 Is a Relation:
 It can be demonstrated in inheritance. 
 In this the child class shares common characteristics with the parent class.
