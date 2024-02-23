@@ -7,7 +7,7 @@ It can be demonstrated in inheritance.
 In this the child class shares common characteristics with the parent class.
 
 DEMONSTRATION:
-
+```java
 class Plant {
     void absorb() {
         System.out.println("Plant is absorbing nutrients");
@@ -27,13 +27,14 @@ public class Main {
         sapling.sway();
     }
 }
-
+```
 
 
 Has a Relationship
 When one class contains an instance of another class it is said to have a has a relationship.
 
 DEMONSTRATION:
+```java
 class Sun {
     void shine() {
         System.out.println("Sun is shining");
@@ -61,7 +62,7 @@ public class Main {
         myFlower.bloom();
     }
 }
-
+```
 
 
 
@@ -75,6 +76,8 @@ Uses a Relationship:
 one class uses the functionality of another class without being a part of it, it is referred to as a uses a relationship.
 
 DEMONSTRATION:
+
+```java
 class Calculator {
     // Method to add two numbers
     int add(int a, int b) {
@@ -99,5 +102,5 @@ public class Main {
         student.performAddition(5, 3, calculator);
     }
 }
-
+```
 
